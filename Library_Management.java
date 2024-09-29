@@ -85,7 +85,7 @@ class Staff extends User{
        System.out.println("userId:"+this.userId);
    }
    void borrowBook(Book book){
-       if(book.availability=true){
+       if(book.availability==true){
            book.borrowbook();
        } else {
         System.out.println("Sorry, the book is not available.");
